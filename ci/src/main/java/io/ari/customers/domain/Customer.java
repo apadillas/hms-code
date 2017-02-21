@@ -10,7 +10,7 @@ public class Customer implements Entity {
 
     public Customer(String id, String idCard) {
         this.id = id;
-        this.idCard = idCard;
+        this.idCard = id;
     }
 
     public String getId() {
